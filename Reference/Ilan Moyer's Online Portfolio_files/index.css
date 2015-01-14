@@ -1,0 +1,125 @@
+a{
+  text-decoration: none;
+}
+
+
+div#navbar{
+  font-size:		20px;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  padding-bottom: 	50px;
+}
+
+div#navbar table{
+  margin-left:		auto;
+  margin-right:		auto;
+}
+
+div#navbar td{
+  padding-left:		20px;
+  padding-right:	20px;
+}
+
+div#navbar a{
+  text-decoration:	none;
+  color:		#828282;
+}
+
+div#navbar a:hover{
+  color:		#8E0000;
+}
+
+
+div.era h1{
+  font-family: 		Verdana, Geneva, Arial, sans-serif;
+  text-align: center;
+  font-size:		15px;
+  color:		black;
+  font-style:		italic;
+  font-weight:		normal;
+  border-color: 	#00127C;
+  border-width: 	1px;
+  border-bottom-style:		dotted;
+  padding:		5px;
+  margin:		auto;
+  height:		20px;
+  width:		800px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}	
+
+
+div.project {
+  font-family: 		Verdana, Geneva, Arial, sans-serif;
+  font-size: 		small;
+  border-color: 	#00127C;
+  border-width: 	1px;
+  border-bottom-style:		dotted;
+  padding:		5px;
+  margin:		auto;
+  height:		240px;
+  width:		800px;
+}
+
+div#miniproject{
+	height: 130px;
+	}
+
+/* #topproject{
+  border-top-style:		dotted;
+}
+
+*/
+
+
+div.project h1{
+  margin:		0px;
+  padding:		0px;
+}
+
+div.project a{
+  color:		black;
+  text-decoration:	none;
+  font-size:		20px;
+  margin:		0px;
+  padding:		0px;
+}
+
+div.project h2{
+  font-size:		15px;
+  color:		#828282;
+  font-style:		italic;
+  font-weight:		normal;
+  margin:		0px;
+  padding:		0px;
+}
+
+div.project p{
+  font-size:		17px;
+}
+
+div.project img {
+  right-margin:		10px;
+  float:		left;
+}
+
+div.project div.textblock{
+  margin-left:		260px;
+}
+
+div.project a.projecttitle:hover{
+  color:		#8897ED
+}
+
+div.project p a{
+
+  font-size:		18px;
+  
+}
+
+div.project p a:hover{
+  color:			#8E0000;
+}
+
+.imagelink{
+  border-style: none;
+}
