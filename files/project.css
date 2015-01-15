@@ -29,14 +29,11 @@ div#navbar a:hover{
   color:		#8E0000;
 }
 
-div{
+
+div#titlebar{
   width:			800px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   margin:			auto;
-}
-
-
-div#titlebar{
   text-align:		left;
 }
 
@@ -65,7 +62,7 @@ p{
 
 
 
-div.aboutproject{
+div#aboutproject{
   width:			800px;
   margin:			auto;
   text-align:		left;
@@ -214,7 +211,7 @@ div.projectstep div.textblock{
   margin-left:		260px;
 }
 
-div.projectstep a.projectsteptitle:hover{
+div.projectstep a.projecttitle:hover{
   color:		#8897ED
 }
 
