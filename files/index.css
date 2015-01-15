@@ -98,7 +98,6 @@ div.project h2{
 }
 
 div.project p{
-  @extend %vertical-align;
   font-size:		17px;
 }
 
@@ -117,6 +116,15 @@ div.project a.projecttitle:hover{
 
 div.project p a{
   font-size:		18px;
+}
+
+div.project p a:link{
+  font-size:		18px;
+  color: blue;
+}
+
+div.project p a:visited {
+    color: purple;
 }
 
 div.project p a:hover{
