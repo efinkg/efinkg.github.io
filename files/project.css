@@ -1,0 +1,228 @@
+div#navbar{
+  font-size:		20px;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  padding-bottom:	30px;
+}
+
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+div#navbar table{
+  margin-left:		auto;
+  margin-right:		auto;
+}
+
+div#navbar td{
+  padding-left:		20px;
+  padding-right:	20px;
+}
+
+div#navbar a{
+  text-decoration:	none;
+  color:		#828282;
+}
+
+
+div#navbar a:hover{
+  color:		#8E0000;
+}
+
+div{
+  width:			800px;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  margin:			auto;
+}
+
+
+div#titlebar{
+  text-align:		left;
+}
+
+div#titlebar h1{
+  font-size:		20px;
+}
+
+
+div#titlediv{
+  width:			800px;
+  margin:			auto;	
+  text-align:		center;
+}
+
+div#titleimage{
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  font-size:		15px;
+  font-style:		italic;
+  text-align:		center;
+}
+
+p{
+  font-size:		15px;
+  line-height:		1.5em;
+}
+
+
+
+div.aboutproject{
+  width:			800px;
+  margin:			auto;
+  text-align:		left;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  font-size:		15px;
+  padding-top:		25px;
+  line-height:		1.5em;
+}  
+
+div#aboutproject ul{
+	margin-left:	10px;
+	list-style-position: outside;
+	}
+span.aboutheading{
+  font-weight:		bold;
+}
+
+div#projectphotos td{
+  width:			400px;
+}
+
+.captions{
+  font-style:		italic;
+  font-size:		15px;
+  text-align:		center;
+  padding-left:		10px;
+  padding-right:	10px;
+}
+
+.captionL{
+  padding-left:		0px;
+  padding-right:	20px;
+}
+
+.captionR{
+  padding-left:		20px;
+  padding-right:	0px;
+}
+
+  
+#projectphotos img{
+  margin-top:		20px;
+}
+
+.projectphotoL {
+  margin-left:		0px;
+  margin-right:	20px;
+}
+
+.projectphotoR {
+  margin-left:		20px;
+  margin-right:		0px;
+}
+
+div#projectphotos img{
+  border-color:		black;
+  border-width:		1px;
+  border-style:		solid;
+}
+
+div#projectphotos img:hover{
+  border-color:		#8897ED;
+}
+
+div#foot{
+  font-size:		20px;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  padding-top:		15px;
+}
+
+div#foot table{
+  margin-left:		auto;
+  margin-right:		auto;
+}
+
+div#foot td{
+  padding-left:		20px;
+  padding-right:	20px;
+}
+
+div#foot a{
+  text-decoration:	none;
+  color:		#828282;
+}
+
+
+div#foot a:hover{
+  color:		#8E0000;
+}
+
+
+div.projectstep {
+  font-family: 		Verdana, Geneva, Arial, sans-serif;
+  font-size: 		small;
+  border-color: 	#00127C;
+  border-width: 	1px;
+  border-bottom-style:		dotted;
+  padding:		5px;
+  margin:		auto;
+  height:		200px;
+  width:		800px;
+}
+
+
+div#miniprojectstep{
+	height: 130px;
+	}
+
+div.projectstep h1{
+  margin:		0px;
+  padding:		0px;
+}
+
+div.projectstep a{
+  color:		black;
+  text-decoration:	none;
+  font-size:		20px;
+  margin:		0px;
+  padding:		0px;
+}
+
+div.projectstep h2{
+  font-size:		15px;
+  color:		#828282;
+  font-style:		italic;
+  font-weight:		normal;
+  margin:		0px;
+  padding:		0px;
+}
+
+div.projectstep p{
+  font-size: 17px;
+}
+
+div.projectstep img {
+  margin-right:		10px;
+  float:		left;
+}
+
+div.projectstep a {
+  right-margin:		10px;
+  float:		left;
+}
+
+div.projectstep div.textblock{
+  margin-left:		260px;
+}
+
+div.projectstep a.projectsteptitle:hover{
+  color:		#8897ED
+}
+
+div.projectstep p a{
+  font-size:		18px;
+  
+}
+
+div.projectstep p a:hover{
+  color:			#8E0000;
+}
