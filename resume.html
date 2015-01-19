@@ -1,26 +1,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link type="text/css" rel="stylesheet" href="files/index.css">
-    <title>Ethan Glassman's Online Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="../files/index.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#header").load("../files/indexheader.html"); 
+            });
+        </script> 
   </head>
 
   <body>
-  
- <div id="navbar">
-      <table>
-	<tbody><tr>
-	  <td> <a id="portfolio" href="portfolio.html"> portfolio </a></td>
-	  <td> <a id="resume" href="resume.html"> resume </a></td>
-	  <td> <a id="contact" href="contact.html"> contact </a></td>
-	  <td> <a id="internships" href="internships.html"> internships </a></td>
-	</tr>
-      </tbody></table>
-  </div>
-
+      <div id="header"></div>
+      
 <object data="files/EthanGlassmanResume.pdf" type="application/pdf" width="80%" height="80%">
  
   <p>It appears you don't have a PDF plugin for this browser.
-  No biggie... you can <a href="files/EthanGlassmanResume.pdf">click here to
+  No biggie... you can <a href="../files/EthanGlassmanResume.pdf">click here to
   download the PDF file.</a></p>
   
 </object>

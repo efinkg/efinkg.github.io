@@ -1,59 +1,96 @@
+<!--
 https://help.github.com/articles/3d-file-viewer/
-
+-->
+      
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link type="text/css" rel="stylesheet" href="files/index.css">
-    <title>Ethan Glassman's Online Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="../files/index.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#header").load("../files/indexheader.html"); 
+            });
+        </script> 
   </head>
 
   <body>
+      <div id="header"></div>
       
+<!--
 Projects to Add
-      
-     
-      Ice Block
-      
- <div id="navbar">
-      <table>
-	<tbody><tr>
-	  <td> <a id="portfolio" href="portfolio.html"> portfolio </a></td>
-	  <td> <a id="resume" href="resume.html"> resume </a></td>
-	  <td> <a id="contact" href="contact.html"> contact </a></td>
-	  <td> <a id="internships" href="internships.html"> internships </a></td>
-	</tr>
-      </tbody></table>
-  </div>
+Ice Block
+-->
+
       
 <h1>This page under construction.</h1>
-
-<div class="era" id="washu">
-	<h1> Washington University in St. Louis (August 2013 - Present) </h1>
-</div>
       
 <div class="project">
 	<a href="./portfoliopages/seniordesign.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/sunflower/sunflowercover.jpg" style="height:200px" alt="The sunflower solar tracking panel."> </a>
 	<div class="textblock">
-    <h1>Senior Design Project</h1>
+    <a href="./portfoliopages/seniordesign.html"><h1>Senior Design Project</h1>
 	<p>
 	Senior design project to build a solar panel that can track the sun. (Fall 2014)
 	</p>
 	</div>
 </div>
+
       
+<div class="project">
+	<a href="./portfoliopages/smurfette.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/SmurfetteGiantLego.jpg" style="height:200px" alt="Smurfette in use."> </a>
+	<div class="textblock">
+    <a href="./portfoliopages/smurfette.html"><h1>CNC Conversion Project</h1>
+	<p>
+	Ongoing CNC conversion project installing a LinuxCNC control system into a vintage CNC mill.  Allows use of Solidworks/HSMWorks for a modern CNC toolchain. (May 2010 - Present)
+	</p>
+	</div>
+</div>
+    
+<div class="project">
+	<a href="./portfoliopages/alfred.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/alfred.JPG" style="width:200px" alt="Machined map."> </a>
+	<div class="textblock">
+    <a href="./portfoliopages/alfred.html"><h1>Alfred the Automated French Press </h1>
+	<p>
+	Prototype automatic French press using repurposed consumer electronic.  (Fall 2013 - Present)
+	</p>
+	</div>
+</div>
+    
+<div class="project">
+	<a href="./portfoliopages/electrochem.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/electrochem.JPG" style="width:200px" alt="Electrochemical cell."> </a>
+	<div class="textblock">
+    <a href="./portfoliopages/electrochem.html"><h1> A Novel Instrument for Rapid Analysis of Electochemical Redux Reaction</h1>
+	<p>
+	Engineering proof-of-concept evaluation of a multichannel multielectrode analyzer, presented at student undergraduate research symposium.  (Spring 2013, Collaborated with RTI International and Duke University)
+	</p>
+	</div>
+</div>
+    
+<div class="project">
+	<a href="./portfoliopages/map.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/map.jpeg" style="width:200px" alt="Machined map."> </a>
+	<div class="textblock">
+    <a href="./portfoliopages/map.html"><h1> CNC Milled Map of Smartphone Data</h1>
+	<p>
+	Manipulating Google Tracking Data to machine a decorative metal map of a long road trip. (Summer 2013)
+	</p>
+	</div>
+</div>
+
+<!--
 <div class="project">
 	<a href="./portfoliopages/capstonecontract.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/capstonecontract/finished.jpg" style="height:200px" alt="Finished product from contract job."> </a>
 	<div class="textblock">
-    <h1>Capstone Design Contract Machining</h1>
+        <a href="./portfoliopages/capstonecontract.html"><h1>Capstone Design Contract Machining</h1></a>
 	<p>
 	Contract Machining Job for a Stanford University Senior Design Project.  Completed CAD work to prepare for machining, machined parts, test fit, and reworked design to assemble smoothly.  Project is for a "Knee Positioning Device."  Details <a href="https://snitta15.wordpress.com/projects/knee-positioning-device/">are availible here.</a>
 	</p>
 	</div>
 </div>      
-      
-      <div class="project">
+-->    
+
+<div class="project">
 	<a href="./portfoliopages/extractschedule.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/extractschedule/extractschedule.png" style="height:200px" alt="Webstac - To - Calendar."> </a>
 	<div class="textblock">
-    <h1>Webstac - To - Calendar</h1>
+    <a href="./portfoliopages/extractschedule.html"><h1>Webstac - To - Calendar</h1>
 	<p>
 Code to autogenerate Google Calendar events from your Washington University Webstac course schedule listings.
 	</p>
@@ -63,72 +100,46 @@ Code to autogenerate Google Calendar events from your Washington University Webs
 <div class="project">
 	<a href="./portfoliopages/lazyscout.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/lazyscout/lazyscout.png" style="width:200px" alt="Lazy Scout Code."> </a>
 	<div class="textblock">
-    <h1>Lazy Scout</h1>
+    <a href="./portfoliopages/lazyscout.html"><h1>Lazy Scout</h1>
 	<p>
         Code to autogenerate a list of matches for FRC scouts to watch.  Chooses only matches that contain teams a robot will either be partnered with, or allied against, during the rest of a tournament.
 	</p>
 	</div>
 </div>
 
-
+<!--
+    
 <div class="project">
 	<a href="./portfoliopages/captainhammer.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/hammer/captainhammer.jpeg" style="width:200px" alt="Captain Hammer Battlebot."> </a>
 	<div class="textblock">
-    <h1>Captain Hammer: A Hammer Style Battlebot</h1>
+    <a href="./portfoliopages/captainhammer.html"><h1>Captain Hammer: A Hammer Style Battlebot</h1>
 	<p>
 	ASME student chapter Battlebot design and build project. (Fall 2013)
 	</p>
 	</div>
 </div>
 
+<--
+
+<!-- This is a comment
+
+      
       <div class="project">
 	<a href="./portfoliopages/giantlego.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/giantlego/giantlego.jpg" style="width:200px" alt="Giant Lego Project."> </a>
 	<div class="textblock">
-    <h1>Giant Lego</h1>
+    <a href="./portfoliopages/giantlego.html"><h1>Giant Lego</h1>
 	<p>
         A machining project to make a 962.5% scale model of a Lego 4x4 brick from steel.
         </p>
 	</div>
 </div>
-      
-<div class="era" id="elon">
-	<h1> Elon University (August 2010 - May 2013) </h1>
-</div>
 
-<div class="project">
-	<a href="./portfoliopages/map.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/map.jpeg" style="width:200px" alt="Machined map."> </a>
-	<div class="textblock">
-    <h1> CNC Milled Map of Smartphone Data</h1>
-	<p>
-	Manipulating Google Tracking Data to machine a decorative metal map of a long road trip. (Summer 2013)
-	</p>
-	</div>
-</div>
-
-<div class="project">
-	<a href="./portfoliopages/electrochem.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/electrochem.JPG" style="width:200px" alt="Electrochemical cell."> </a>
-	<div class="textblock">
-    <h1> A Novel Instrument for Rapid Analysis of Electochemical Redux Reaction</h1>
-	<p>
-	Engineering proof-of-concept evaluation of a multichannel multielectrode analyzer, presented at student undergraduate research symposium.  (Spring 2013, Collaborated with RTI International and Duke University)
-	</p>
-	</div>
-</div>
-    
-<div class="project">
-	<a href="./portfoliopages/alfred.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/alfred.JPG" style="width:200px" alt="Machined map."> </a>
-	<div class="textblock">
-    <h1> Automated French Press </h1>
-	<p>
-	Prototype automatic French press using repurposed consumer electronic.  (Fall 2013 - Present)
-	</p>
-	</div>
-</div>
+This closes the comment -->
       
 <div class="project">
 	<a href="./portfoliopages/trebuchet.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/trebuchet/trebuchet.jpg" style="height:200" alt="Trebuchet."> </a>
 	<div class="textblock">
-    <h1> Trebuchet </h1>
+    <a href="./portfoliopages/trebuchet.html"><h1> Trebuchet </h1>
 	<p>
 	Build a trebuchet for Elon SPS Chapter for publicity events.
 	</p>
@@ -138,7 +149,7 @@ Code to autogenerate Google Calendar events from your Washington University Webs
 <div class="project">
 	<a href="./portfoliopages/music.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/lightproject/musicfiltering.png" style="width:200px" alt="Music project."> </a>
 	<div class="textblock">
-    <h1> Music Project </h1>
+    <a href="./portfoliopages/music.html"><h1> Music Project </h1>
 	<p>
     Use an analog electronic circuit to flash a lightbulb on the bass notes of any song.
 	</p>
@@ -148,67 +159,62 @@ Code to autogenerate Google Calendar events from your Washington University Webs
 <div class="project">
 	<a href="./portfoliopages/smartphonedock.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/smartphone.png" style="width:200px" alt="Wireless Smartphone Dock."> </a>
 	<div class="textblock">
-    <h1> Smartphone-As-GPS Mount </h1>
+    <a href="./portfoliopages/smartphonedock.html"><h1> Smartphone-As-GPS Mount </h1>
 	<p>
 	A project to firmly mount a smartphone for use as a GPS.  Custom modeled and CNC milled to mount into a 1996 BMW 328i sunglasses holder.
 	</p>
 	</div>
 </div>
-      
+    
+<!--    
+
 <div class="project">
 	<a href="./portfoliopages/sillywalks.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/sillywalks/sillywalks.JPG" style="width:200px" alt="Silly Walks Clock."> </a>
 	<div class="textblock">
-    <h1> Silly Walks Clock, Modeled after Monty Python </h1>
+    <a href="./portfoliopages/sillywalks.html"><h1> Silly Walks Clock, Modeled after Monty Python </h1>
 	<p>
 	Concept:  Use of an Arduino and two miniature gear motors to build a clock that moves the hands at the correct time, but to the incorrect places.  Hands are modeled after the Ministry of Silly Walks.
 	</p>
 	</div>
 </div>
+
+-->
+    
+<!--
       
 <div class="project">
 	<a href="./portfoliopages/projectordesk.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/projectordesk.png" style="width:200px" alt="Projector Desk."> </a>
 	<div class="textblock">
-    <h1> Projector Desk </h1>
+    <a href="./portfoliopages/projectordesk.html"><h1> Projector Desk </h1>
 	<p>
 	Concept: Use a gantry mounted projector to display homework tasks directly onto my desk.
 	</p>
 	</div>
 </div>
+
+-->
       
 <div class="project">
 	<a href="./portfoliopages/rov.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/rov/overview.jpg" style="height:200px" alt="Projector Desk."> </a>
 	<div class="textblock">
-    <h1> ROV Upgrade Project </h1>
+    <a href="./portfoliopages/rov.html"><h1> ROV Upgrade Project </h1>
 	<p>
 	Upgrade the introductory engineering project at Elon University with microcontrollers.
 	</p>
 	</div>
 </div>
 
-<div class="era" id="elon">
-	<h1> Pre-University (Before August 2010) </h1>
-</div>
-
 <div class="project">
 	<a href="./portfoliopages/typewriter.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/beveragetypewriter.png" style="width:200px" alt="Beverage Typewriter."> </a>
 	<div class="textblock">
-    <h1>Typewriter Styled Beverage Pouring Machine</h1>
+    <a href="./portfoliopages/typewriter.html"><h1>Typewriter Styled Beverage Pouring Machine</h1>
 	<p>
 	26 buttons feed to Arduino controlling 26 solenoid valves.
 	</p>
 	</div>
 </div>
       
-      
-<div class="project">
-	<a href="./portfoliopages/smurfette.html">  <img class="imagelink" src="./portfoliopages/portfoliofiles/SmurfetteGiantLego.jpg" style="height:200px" alt="Smurfette in use."> </a>
-	<div class="textblock">
-    <h1>CNC Conversion Project</h1>
-	<p>
-	Ongoing CNC conversion project installing a LinuxCNC control system into a vintage CNC mill.  Allows use of Solidworks/HSMWorks for a modern CNC toolchain. (May 2010 - Present)
-	</p>
-	</div>
-</div>
+
 
 </body></html>
 
