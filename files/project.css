@@ -4,10 +4,28 @@ div#navbar{
   padding-bottom:	30px;
 }
 
+div#navbar h3{
+  text-align:center;
+  font-size:		25px;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+}
+
+
+div.construction{
+    text-align:       center;
+}
+
 IMG.centered {
     display: block;
     margin-left: auto;
     margin-right: auto }
+
+
+div iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
 
 div#navbar table{
   margin-left:		auto;
@@ -34,7 +52,7 @@ div#titlebar{
   width:			800px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   margin:			auto;
-  text-align:		left;
+  text-align:		center;
 }
 
 div#titlebar h1{
@@ -197,13 +215,16 @@ div.projectstep p{
   font-size: 17px;
 }
 
-div.projectstep img {
-  margin-right:		10px;
-  float:		left;
+div.projectstep p a:link{
+  color: blue;
 }
 
-div.projectstep a {
-  right-margin:		10px;
+div.projectstep p a:visited{
+    color: purple;
+}
+
+div.projectstep a img{
+  margin-right:		10px;
   float:		left;
 }
 
@@ -217,7 +238,6 @@ div.projectstep a.projecttitle:hover{
 
 div.projectstep p a{
   font-size:		18px;
-  
 }
 
 div.projectstep p a:hover{
