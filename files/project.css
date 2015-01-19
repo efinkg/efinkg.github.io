@@ -79,7 +79,6 @@ p{
 }
 
 
-
 div#aboutproject{
   width:			800px;
   margin:			auto;
@@ -93,7 +92,8 @@ div#aboutproject{
 div#aboutproject ul{
 	margin-left:	10px;
 	list-style-position: outside;
-	}
+}
+
 span.aboutheading{
   font-weight:		bold;
 }
