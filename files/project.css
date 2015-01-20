@@ -23,9 +23,18 @@ div h3{
 }
 
 
-div n1{
+div#navbar n1{
  padding-top:       5px;
   font-size:		1.2em;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  margin-bottom: 5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+div#footer n1{
+ padding-top:       5px;
+  font-size:		1em;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   margin-bottom: 5px;
   padding-left: 2.5px;
@@ -281,6 +290,10 @@ div#footer{
    padding-top: 20px; 
   font-family:	Verdana, Geneva, Arial, sans-serif;
   padding-bottom: 15px;
+width:	320px;
+  max-width:	100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#footer tr{
