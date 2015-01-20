@@ -39,8 +39,8 @@ div#navbar table{
 }
 
 div#navbar td{
-  padding-left:		20px;
-  padding-right:	20px;
+  padding-left:		10px;
+  padding-right:	10px;
 }
 
 div#navbar a{
@@ -66,7 +66,9 @@ div.era h1{
   padding:		5px;
   margin:		auto;
   height:		20px;
-  width:		800px;
+  width:		device-width;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 15px;
   padding-bottom: 15px;
 }	
@@ -81,7 +83,9 @@ div.project {
   padding:		5px;
   margin:		auto;
   height:		200px;
-  width:		800px;
+  width:		device-width;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 div#miniproject{
@@ -93,6 +97,14 @@ div#miniproject{
 }
 
 */
+
+div.project p1{
+  color:		black;
+    font-weight: bold;
+  font-size:		1.1em;
+  margin:		0px;
+  padding:		0px;
+}
 
 
 div.project h1{
@@ -119,7 +131,7 @@ div.project h2{
 }
 
 div.project p{
-  font-size:		17px;
+  font-size:		1em;
 }
 
 div.project img {
@@ -128,15 +140,12 @@ div.project img {
 }
 
 div.project div.textblock{
-  margin-left:		260px;
+  margin-right:		auto;
+  margin-left:		220px;
 }
 
 div.project a.projecttitle:hover{
   color:		#8897ED
-}
-
-div.project p a{
-  font-size:		18px;
 }
 
 div.project p a:link{
