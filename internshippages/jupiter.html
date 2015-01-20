@@ -1,23 +1,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <link type="text/css" rel="stylesheet" href="../files/project.css">
-    <title>Ethan Glassman's Online Portfolio</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#header").load("../files/projectheader.html"); 
+                $("#footer").load("../files/projectfooter.html"); 
+            });
+        </script> 
   </head>
+<div id="header"></div>
+<body>
 
-  <body>
-  
- <div id="navbar">
-      <table>
-	<tbody><tr>
-	  <td> <a id="portfolio" href="../portfolio.html"> portfolio </a></td>
-	  <td> <a id="resume" href="../resume.html"> resume </a></td>
-	  <td> <a id="contact" href="../contact.html"> contact </a></td>
-	  <td> <a id="internships" href="../internships.html"> internships </a></td>
-	</tr>
-      </tbody></table>
-</div>
-
-      <a href="http://jupiterfoundation.org/"><img src="./internshipfiles/jupiter/jupiter.png" class="centered" style="width:450px;background-color:#00376F"></div></a>
+<a href="http://jupiterfoundation.org/"><img src="./internshipfiles/jupiter/jupiter.png" class="centered" style="width:450px;background-color:#00376F"></div></a>
       
 <div id="titlebar">
     <h1><a href="http://50.247.84.90/microscope/"> Jupiter Research Foundation Microscope Payload V1.0 </a></h1>
@@ -122,18 +117,13 @@
     </div>        
             
     
-    <div id="foot">
-    	<table>
-    	  <tr>
-    	    <td> <a id = "previous" href = "./liquid.html"> previous </a> </td>
-    	    <td> <a id = "return" href = "./portfolio.html"> return to portfolio </a> </td>
-    	  </tr>
-    	</table>
-    </div>
+
             
   </body>
 
 </html>
+
+<div id="footer"></div>
 
 
 <script>
