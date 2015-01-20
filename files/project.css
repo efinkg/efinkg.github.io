@@ -5,6 +5,7 @@ div#navbar{
 }
 
 div#navbar h3{
+ padding-top: 5px;
   text-align:center;
   font-size:		25px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
