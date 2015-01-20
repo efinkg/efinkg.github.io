@@ -5,14 +5,13 @@ div#navbar{
 
 div#navbar h3{
  padding-top:       5px;
-  text-align:center;
-  font-size:		25px;
+  font-size:		1.25em;
   font-family:		Verdana, Geneva, Arial, sans-serif;
     margin-bottom: 5px;
 }
 
 div#navbar tr{
-  font-size:		20px;
+  font-size:		1.2em;
 }
 
 div.construction{
@@ -53,14 +52,12 @@ div#navbar a:hover{
 
 
 div#titlebar{
-  width:			800px;
+  font-size:		1.5em;
+    font-weight: bold;
+width:			800px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   margin:			auto;
   text-align:		center;
-}
-
-div#titlebar h1{
-  font-size:		20px;
 }
 
 
@@ -72,14 +69,9 @@ div#titlediv{
 
 div#titleimage{
   font-family:		Verdana, Geneva, Arial, sans-serif;
-  font-size:		15px;
+  font-size:		1em;
   font-style:		italic;
   text-align:		center;
-}
-
-p{
-  font-size:		15px;
-  line-height:		1.5em;
 }
 
 
@@ -88,7 +80,7 @@ div#aboutproject{
   margin:			auto;
   text-align:		left;
   font-family:		Verdana, Geneva, Arial, sans-serif;
-  font-size:		15px;
+  font-size:		1em;
   padding-top:		25px;
   line-height:		1.5em;
 }  
@@ -207,7 +199,7 @@ div.projectstep a{
 }
 
 div.projectstep h2{
-  font-size:		15px;
+  font-size:		1.3em;
   color:		#828282;
   font-style:		italic;
   font-weight:		normal;
@@ -216,7 +208,7 @@ div.projectstep h2{
 }
 
 div.projectstep p{
-  font-size: 17px;
+  font-size: 1.3em;
 }
 
 div.projectstep p a:link{
@@ -234,6 +226,7 @@ div.projectstep a img{
 
 div.projectstep div.textblock{
   margin-left:		260px;
+}
 }
 
 div.projectstep a.projecttitle:hover{
