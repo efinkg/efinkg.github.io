@@ -1,13 +1,35 @@
 div#navbar{
+  width:	440px;
+  max-width:	80%;
+  margin-left: auto;
+  margin-right: auto;
   font-family:		Verdana, Geneva, Arial, sans-serif;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
-div#navbar h3{
+
+img.imagelink{
+    max-width: 35%;
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+div h3{
+    text-align: center;
  padding-top:       5px;
   font-size:		1.25em;
   font-family:		Verdana, Geneva, Arial, sans-serif;
     margin-bottom: 5px;
+}
+
+
+div n1{
+ padding-top:       5px;
+  font-size:		1.2em;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 div#titlebar t1{

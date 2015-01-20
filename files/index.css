@@ -7,6 +7,30 @@ IMG.centered {
     margin-left: auto;
     margin-right: auto }
 
+img.imagelink{
+    max-width: 35%;
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+div h3{
+    text-align: center;
+ padding-top:       5px;
+  font-size:		1.25em;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+
+div n1{
+ padding-top:       5px;
+  font-size:		1.2em;
+  font-family:		Verdana, Geneva, Arial, sans-serif;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 div.construction{
     text-align:       center;
 }
@@ -14,10 +38,14 @@ div.construction{
 div object{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
 }
 
 div#navbar{
+  width:	440px;
+  max-width:	80%;
+  margin-left: auto;
+  margin-right: auto;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   padding-bottom: 20px;
 }
@@ -38,9 +66,14 @@ div#navbar table{
   margin-right:		auto;
 }
 
+div#navbar table{
+    width: 500px;
+    max-width: 80%;
+}
+
 div#navbar td{
-  padding-left:		10px;
-  padding-right:	10px;
+  padding-left:		15px;
+  padding-right:	    15px;
 }
 
 div#navbar a{
@@ -88,16 +121,6 @@ div.project {
   margin-right: 20px;
 }
 
-div#miniproject{
-	height: 130px;
-	}
-
-/* #topproject{
-  border-top-style:		dotted;
-}
-
-*/
-
 div.project p1{
   color:		black;
     font-weight: bold;
@@ -141,7 +164,7 @@ div.project img {
 
 div.project div.textblock{
   margin-right:		auto;
-  margin-left:		220px;
+        left-margin: 260px;
 }
 
 div.project a.projecttitle:hover{
