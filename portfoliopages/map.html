@@ -22,6 +22,46 @@
 <div class="construction">
     <h1>This page under construction.</h1>
 </div>      
+    
+<div id="aboutproject">
+<p>
+<span class="aboutheading">Project Background:</span>
+This project uses a pair of python scripts written to extract your personal gps tracking data recorded from a cellphone running android, and generate a personalized, physical map of your trip.  This data is collected passively if you have the Access to my location setting turned on on your android device, and can be accessed at:
+https://maps.google.com/locationhistory/b/0
+Because this data is collected passively, you can make these maps of any interesting trip you have made at any time in the past, as well as planned future trips.
+	These maps can make great mementoes, by using data that is passively collected you can enjoy your trip as it happens, and generate a map once you are comfortably back home.
+</p>
+</div>
+    
+<div class="projectstep">
+Overview of the Map Generation Process
+<ul>
+    <li>Clone code from github.</li>
+    <li>Download your personal tracking data in KML from Google.</li>
+    <li>Preprocess the data, removing ‘gx:’ from kml tags in your preferred text editor.</li>
+    <li>Use MapUnique.py to generate a latitude longitude list in csv that can be plotted.</li>
+    <li>Write a csv file of any stops you want to display.</li>
+    <li>Use USMapFromLat.py to generate your map in PostScript format.</li>
+    <li>Use pstoedit to convert your PostScript map to a dxf file.</li>
+    <li>Import your map in dxf to your preferred 3D CAD package.</li>
+    <li>Clean up your dxf and extrude to a solid.</li>
+    <li>Use your preferred CAM package to prepare gcode.</li>
+    <li>Machine the map.</li>
+</ul>
+</div>
+
+<div class="projectstep">
+<p>
+Two main data locations to get data from.  If you want a short period of time, go to <a href="https://maps.google.com/locationhistory/b/0">https://maps.google.com/locationhistory/b/0</a> and use the dropdown menu to select the time frame you want to get data from.  
+<p>Note: You can also get all of your historical data from <a href="https://www.google.com/settings/takeout">https://www.google.com/settings/takeout</a> but note that this is likely to be at least a million data points.  Note also that this data is in JSON form which is much easier to work with, but requires a different set of scripts which can be found <a href="https://github.com/efinkg/Location_History">here instead.</a>
+</p>
+</div>
+    
+<div class="projectstep">
+<p>
+    Unfortunately due to limitations in the Python code I wrote, it is not possible to fully strip the KML tags when extracting latitude, longitude data, so until further development is done, a find/replace of all 'gx:' tags is necessary.  It is then possible to run MapUnique.py.  This script extracts each latitude longitude pair from the KML that Google provides, and adds each unique data point to a csv file.
+    </p>
+    </div>
       
 </body></html>
 
