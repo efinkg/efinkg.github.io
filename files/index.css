@@ -7,10 +7,33 @@ IMG.centered {
     margin-left: auto;
     margin-right: auto }
 
+div.projectimage{
+    width: 200px;
+    max-width: 30%;
+    max-height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
 img.imagelink{
+    width: 200px;
+    max-width: 100%;
+    max-height: 200px;   
+}
+
+.frame {
+    display: block;
     max-width: 35%;
     max-height: 200px;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
     margin-right: 10px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 div h3{
@@ -118,7 +141,7 @@ div.era h1{
 }	
 
 
-div.project {
+div.project{
   font-family: 		Verdana, Geneva, Arial, sans-serif;
   font-size: 		small;
   border-color: 	#00127C;
@@ -128,8 +151,6 @@ div.project {
   margin:		auto;
   height:		200px;
   width:		device-width;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 div.project p1{
@@ -174,8 +195,7 @@ div.project img {
 }
 
 div.project div.textblock{
-  margin-right:		auto;
-        left-margin: 260px;
+    max-width: 100%;
 }
 
 div.project a.projecttitle:hover{
@@ -192,10 +212,6 @@ div.project p a:visited {
 
 div.project p a:hover{
   color:			#8E0000;
-}
-
-.imagelink{
-  border-style: none;
 }
 
 
