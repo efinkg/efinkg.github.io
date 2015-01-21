@@ -126,10 +126,10 @@ div#titleimage{
 
 
 div#aboutproject{
+    margin-left: auto;
+    margin-right: auto;
   width: device-width;
     max-width: 800px;
-    margin-left: 20px;
-      margin-right: 20px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
   font-size:		1em;
   padding-top:		25px;
