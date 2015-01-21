@@ -125,7 +125,7 @@ div.project {
     border-bottom-style: dotted;
     padding: 5px;
     margin: auto;
-    height: 200px;
+    min-height: 200px;
     width: device-width;
     max-width: 800px;
 }
