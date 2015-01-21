@@ -150,6 +150,7 @@ div.project{
   margin:		auto;
   height:		200px;
   width:		device-width;
+    max-width: 800px;
 }
 
 div.project p1{
