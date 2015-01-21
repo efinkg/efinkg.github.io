@@ -1,328 +1,264 @@
-div#navbar{
-  width:	390px;
-  max-width:	100%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  padding-bottom: 20px;
+div#navbar {
+    width: 390px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding-bottom: 20px;
 }
-
-div.projectimage{
+div.projectimage {
     width: 200px;
     max-width: 30%;
     height: 200px;
     float: left;
     margin-right: 10px;
 }
-
-img.imagelink{
+img.imagelink {
     max-width: 100%;
-    max-height: 200px; 
+    max-height: 200px;
 }
-
-div h3{
+div h3 {
     text-align: center;
- padding-top:       5px;
-  font-size:		1.25em;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
+    padding-top: 5px;
+    font-size: 1.25em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
     margin-bottom: 5px;
 }
-
-
-div#navbar n1{
- padding-top:       5px;
-  font-size:		1.2em;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  margin-bottom: 5px;
-  padding-left: 2.5px;
-  padding-right: 2.5px;
+div#navbar n1 {
+    padding-top: 5px;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
-
-div#footer n1{
- padding-top:       5px;
-  font-size:		1em;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  margin-bottom: 5px;
-  padding-left: 2.5px;
-  padding-right: 2.5px;
+div#footer n1 {
+    padding-top: 5px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
-
-div#titlebar t1{
- padding-top:       5px;
-  font-size:		0.8em;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  margin-bottom: 5px;
+div#titlebar t1 {
+    padding-top: 5px;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
 }
-
-div#navbar tr{
-  font-size:		1.2em;
+div#navbar tr {
+    font-size: 1.2em;
 }
-
-div.construction{
+div.construction {
     margin-top: 10px;
-    text-align:       center;
-    font-size:		1.2em;
+    text-align: center;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
-
 IMG.centered {
     display: block;
     margin-left: auto;
-    margin-right: auto }
-
-
-div iframe{
+    margin-right: auto
+}
+div iframe {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
-
-div#navbar table{
-  margin-left:		auto;
-  margin-right:		auto;
-}
-
-div#navbar td{
-  padding-left:		20px;
-  padding-right:	20px;
-}
-
-div#navbar a{
-  text-decoration:	none;
-  color:		#828282;
-}
-
-
-div#navbar a:hover{
-  color:		#8E0000;
-}
-
-
-div#titlebar{
-  font-size:		1.5em;
-    font-weight: bold;
-  width: device-width;
-    margin-left: 20px;
-    margin-right: 20px;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  margin:			auto;
-  text-align:		center;
-}
-
-
-div#titlediv{
-  width: 800px; 
-  max-width: 95%
-  margin:			auto;	
-  text-align:		center;
-}
-
-div#titleimage{
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  font-size:		1em;
-  font-style:		italic;
-  text-align:		center;
-}
-
-
-div#aboutproject{
+div#navbar table {
     margin-left: auto;
     margin-right: auto;
-  width: device-width;
+}
+div#navbar td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div#navbar a {
+    text-decoration: none;
+    color: #828282;
+}
+div#navbar a:hover {
+    color: #8E0000;
+}
+div#titlebar {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: device-width;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+div#titlediv {
+    width: 800px;
+    max-width: 95% margin: auto;
+    text-align: center;
+}
+div#titleimage {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+div#aboutproject {
+    margin-left: auto;
+    margin-right: auto;
+    width: device-width;
     max-width: 800px;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  font-size:		1em;
-  padding-top:		25px;
-  line-height:		1.5em;
-}  
-
-div#aboutproject ul{
-	margin-left:	10px;
-	list-style-position: outside;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 1em;
+    padding-top: 25px;
+    line-height: 1.5em;
 }
-
-span.aboutheading{
-  font-weight:		bold;
+div#aboutproject ul {
+    margin-left: 10px;
+    list-style-position: outside;
 }
-
-div#projectphotos td{
-  width:			400px;
+span.aboutheading {
+    font-weight: bold;
 }
-
-.captions{
-  font-style:		italic;
-  font-size:		15px;
-  text-align:		center;
-  padding-left:		10px;
-  padding-right:	10px;
+div#projectphotos td {
+    width: 400px;
 }
-
-.captionL{
-  padding-left:		0px;
-  padding-right:	20px;
+.captions {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-.captionR{
-  padding-left:		20px;
-  padding-right:	0px;
+.captionL {
+    padding-left: 0px;
+    padding-right: 20px;
 }
-
-  
-#projectphotos img{
-  margin-top:		20px;
+.captionR {
+    padding-left: 20px;
+    padding-right: 0px;
 }
-
+#projectphotos img {
+    margin-top: 20px;
+}
 .projectphotoL {
-  margin-left:		0px;
-  margin-right:	20px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
-
 .projectphotoR {
-  margin-left:		20px;
-  margin-right:		0px;
+    margin-left: 20px;
+    margin-right: 0px;
 }
-
-div#projectphotos img{
-  border-color:		black;
-  border-width:		1px;
-  border-style:		solid;
+div#projectphotos img {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
-
-div#projectphotos img:hover{
-  border-color:		#8897ED;
+div#projectphotos img:hover {
+    border-color: #8897ED;
 }
-
-div#foot{
-  font-size:		20px;
-  font-family:		Verdana, Geneva, Arial, sans-serif;
-  padding-top:		15px;
+div#foot {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding-top: 15px;
 }
-
-div#foot table{
-  margin-left:		auto;
-  margin-right:		auto;
+div#foot table {
+    margin-left: auto;
+    margin-right: auto;
 }
-
-div#foot td{
-  padding-left:		20px;
-  padding-right:	20px;
+div#foot td {
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-div#foot a{
-  text-decoration:	none;
-  color:		#828282;
+div#foot a {
+    text-decoration: none;
+    color: #828282;
 }
-
-
-div#foot a:hover{
-  color:		#8E0000;
+div#foot a:hover {
+    color: #8E0000;
 }
-
-
 div.projectstep {
-  font-family: 		Verdana, Geneva, Arial, sans-serif;
-  font-size: 		small;
-  border-color: 	#00127C;
-  border-width: 	1px;
-  border-bottom-style:		dotted;
-  padding:		5px;
-  margin:		auto;
-  height:		200px;
-  width: 800px; 
-  max-width: 85%
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    border-color: #00127C;
+    border-width: 1px;
+    border-bottom-style: dotted;
+    padding: 5px;
+    margin: auto;
+    height: 200px;
+    width: 800px;
+    max-width: 85%
 }
-
-
-div#miniprojectstep{
-	height: 130px;
-	}
-
-div.projectstep h1{
-  margin:		0px;
-  padding:		0px;
+div#miniprojectstep {
+    height: 130px;
 }
-
-div.projectstep a{
-  color:		black;
-  text-decoration:	none;
-  font-size:		20px;
-  margin:		0px;
-  padding:		0px;
+div.projectstep h1 {
+    margin: 0px;
+    padding: 0px;
 }
-
-div.projectstep h2{
-  font-size:		1.3em;
-  color:		#828282;
-  font-style:		italic;
-  font-weight:		normal;
-  margin:		0px;
-  padding:		0px;
+div.projectstep a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
-
-div.projectstep p{
-  max-width: 600px;
-  font-size: 1em;
+div.projectstep h2 {
+    font-size: 1.3em;
+    color: #828282;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
 }
-
-div.projectstep p a:link{
-  color: blue;
+div.projectstep p {
+    max-width: 600px;
+    font-size: 1em;
 }
-
-div.projectstep p a:visited{
+div.projectstep p a:link {
+    color: blue;
+}
+div.projectstep p a:visited {
     color: purple;
 }
-
-div.projectstep a img{
-  float: left;
+div.projectstep a img {
+    float: left;
 }
-
-div.projectstep div.textblock{
+div.projectstep div.textblock {
     max-width: 70%;
     display: table-cell;
 }
-
-div.projectstep a.projecttitle:hover{
-  color:		#8897ED
+div.projectstep a.projecttitle:hover {
+    color: #8897ED
 }
-
-div.projectstep p a{
-  font-size:	1em;
+div.projectstep p a {
+    font-size: 1em;
 }
-
-div.projectstep p a:hover{
-  color:			#8E0000;
+div.projectstep p a:hover {
+    color: #8E0000;
 }
-
-div#footer{
-   padding-top: 20px; 
-  font-family:	Verdana, Geneva, Arial, sans-serif;
-  padding-bottom: 15px;
-width:	320px;
-  max-width:	100%;
-  margin-left: auto;
-  margin-right: auto;
+div#footer {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding-bottom: 15px;
+    width: 320px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-div#footer tr{
-  font-size:		15px;
+div#footer tr {
+    font-size: 15px;
 }
-
-div#footer table{
-  margin-left:		auto;
-  margin-right:		auto;
+div#footer table {
+    margin-left: auto;
+    margin-right: auto;
 }
-
-div#footer td{
-  padding-left:		20px;
-  padding-right:	20px;
+div#footer td {
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-div#footer a{
-  text-decoration:	none;
-  color:		#828282;
+div#footer a {
+    text-decoration: none;
+    color: #828282;
 }
-
-
-div#footer a:hover{
-  color:		#8E0000;
+div#footer a:hover {
+    color: #8E0000;
 }
