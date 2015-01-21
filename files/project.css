@@ -10,7 +10,7 @@ div#navbar{
 div.projectimage{
     width: 200px;
     max-width: 30%;
-    max-height: 200px;
+    height: 200px;
     float: left;
     margin-right: 10px;
 }
@@ -18,7 +18,7 @@ div.projectimage{
 img.imagelink{
     width: 200px;
     max-width: 100%;
-    max-height: 200px;   
+    max-height: 200px; 
 }
 
 div h3{
