@@ -127,6 +127,7 @@ div#titleimage{
 
 div#aboutproject{
   width: device-width;
+    max-width: 800px;
     margin-left: 20px;
       margin-right: 20px;
   font-family:		Verdana, Geneva, Arial, sans-serif;
