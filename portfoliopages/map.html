@@ -18,22 +18,17 @@
     
 <div id="header"></div>
       
-<img class="centered" src="./portfoliofiles/map_thumb.jpg" style="height:120"></a>
+<img class="centered" src="./portfoliofiles/map/map_thumb.jpg" style="height:120"></a>
 <div  id = "titlebar" >
     <t1><a href="https://github.com/efinkg/Map">CNC Machined Map Project</a> </t1>
 </div>
     
-<div class="construction">
-    <t1>This page under construction.</t1>
-</div>      
-    
 <div id="aboutproject">
 <p>
-<span class="aboutheading">Project Background:</span>
-This project uses a pair of python scripts written to extract your personal gps tracking data recorded from a cellphone running android, and generate a personalized, physical map of your trip.  This data is collected passively if you have the Access to my location setting turned on on your android device, and can be accessed at:
+<span class="aboutheading">Project Background:</span>  After taking a long road trip, I wanted to have a memento of the trip I took.  Despite having many cell-phone photos, I wanted something a little more permanent.  With a few weeks before I was set to start my internship at <a href="../internshippages/jupiter.html">Liquid Robotics</a> I decided to see if I could machine a map of my trip.<br>
+This project uses a pair of python scripts written to extract your personal gps tracking data recorded from a cellphone running android, and generate a personalized, physical map of your trip.  This data is collected passively if you have the access to my location setting turned on on your android device, and can be accessed at:
 https://maps.google.com/locationhistory/b/0
-Because this data is collected passively, you can make these maps of any interesting trip you have made at any time in the past, as well as planned future trips.
-	These maps can make great mementoes, by using data that is passively collected you can enjoy your trip as it happens, and generate a map once you are comfortably back home.
+Because this data is collected passively, you can make these maps of any interesting trip you have made at any time in the past.
 </p>
 </div>
     
@@ -53,20 +48,48 @@ Overview of the Map Generation Process
     <li>Machine the map.</li>
 </ul>
 </div>
-
-<div class="projectstep">
+    
+<div class="projectstep"><div class="projectimage">
+	<a href="./portfoliofiles/map/GPSTracks_thumb.jog"><img class="imagelink" src="./portfoliofiles/map/GPSTracks.png"alt="Initial map."> </a>
+	</div><div class="textblock">
 <p>
 Two main data locations to get data from.  If you want a short period of time, go to <a href="https://maps.google.com/locationhistory/b/0">https://maps.google.com/locationhistory/b/0</a> and use the dropdown menu to select the time frame you want to get data from.  
 <p>Note: You can also get all of your historical data from <a href="https://www.google.com/settings/takeout">https://www.google.com/settings/takeout</a> but note that this is likely to be at least a million data points.  Note also that this data is in JSON form which is much easier to work with, but requires a different set of scripts which can be found <a href="https://github.com/efinkg/Location_History">here instead.</a>
 </p>
-</div>
-    
-<div class="projectstep">
-<p>
-    Unfortunately due to limitations in the Python code I wrote, it is not possible to fully strip the KML tags when extracting latitude, longitude data, so until further development is done, a find/replace of all 'gx:' tags is necessary.  It is then possible to run MapUnique.py.  This script extracts each latitude longitude pair from the KML that Google provides, and adds each unique data point to a csv file.
-    </p>
-    </div>
+	</div>
+</div>  
+
       
+<div class="projectstep"><div class="projectimage">
+	<a href="./portfoliofiles/map/map2_thumb.jpg"><img class="imagelink" src="./portfoliofiles/map/map2.png"alt="Matplotlib map."> </a>
+	</div><div class="textblock">
+<p>
+Unfortunately due to limitations in the Python code I wrote, it is not possible to fully strip the KML tags when extracting latitude, longitude data, so until further development is done, a find/replace of all 'gx:' tags is necessary.  It is then possible to extract each latitude longitude pair from the KML that Google provides, and plot each unique data point using Matplotlib.  This map can be exported to a .ps file format, which is able to be converted to a dxf and then imported to Solidworks.
+</p>
+	</div>
+</div>  
+    
+<div class="projectstep"><div class="projectimage">
+	<a href="./portfoliofiles/map/machiningmap_thumb.jpg"><img class="imagelink" src="./portfoliofiles/map/machiningmap.jpg"alt="Machining map."> </a>
+	</div><div class="textblock">
+<p>
+Once imported into Solidworks, some extraneous lines need to be removed, but it is fairly straightforward to clean up the file.  This dxf can be used to define a trace path for HSMWorks, and conveniently the outlines of the map are a seperate layer of the dxf from the plotted data points from my trip.  
+</p>
+	</div>
+</div>  
+    
+    
+<div class="projectstep"><div class="projectimage">
+	<a href="./portfoliofiles/map/map_thumb.jpg"><img class="imagelink" src="./portfoliofiles/map/map.jpg"alt="Final map."> </a>
+	</div><div class="textblock">
+<p>
+3 machining operations later (plus a coat of enamel paint to clean things up) the final map is done.
+</p>
+	</div>
+</div> 
+
+
+    
 </body></html>
 
 <div id="footer"></div>  
