@@ -6,6 +6,7 @@ div#navbar {
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding-bottom: 20px;
 }
+
 div.projectimage {
     width: 200px;
     max-width: 30%;
@@ -13,13 +14,15 @@ div.projectimage {
     float: left;
     margin-right: 10px;
 }
+
 img.imagelink {
-      display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     max-height: 200px;
 }
+
 div h3 {
     text-align: center;
     padding-top: 5px;
@@ -27,6 +30,7 @@ div h3 {
     font-family: Verdana, Geneva, Arial, sans-serif;
     margin-bottom: 5px;
 }
+
 div#navbar n1 {
     padding-top: 5px;
     font-size: 1.2em;
@@ -35,6 +39,7 @@ div#navbar n1 {
     padding-left: 2.5px;
     padding-right: 2.5px;
 }
+
 div#footer n1 {
     padding-top: 5px;
     font-size: 1em;
@@ -43,46 +48,56 @@ div#footer n1 {
     padding-left: 2.5px;
     padding-right: 2.5px;
 }
+
 div#titlebar t1 {
     padding-top: 5px;
     font-size: 0.8em;
     font-family: Verdana, Geneva, Arial, sans-serif;
     margin-bottom: 5px;
 }
+
 div#navbar tr {
     font-size: 1.2em;
 }
+
 div.construction {
     margin-top: 10px;
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
+
 IMG.centered {
     display: block;
     margin-left: auto;
     margin-right: auto
 }
+
 div iframe {
     display: block;
     margin-left: auto;
     margin-right: auto
 }
+
 div#navbar table {
     margin-left: auto;
     margin-right: auto;
 }
+
 div#navbar td {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 div#navbar a {
     text-decoration: none;
     color: #828282;
 }
+
 div#navbar a:hover {
     color: #8E0000;
 }
+
 div#titlebar {
     font-size: 1.5em;
     font-weight: bold;
@@ -93,17 +108,20 @@ div#titlebar {
     margin: auto;
     text-align: center;
 }
+
 div#titlediv {
     width: 800px;
     max-width: 95% margin: auto;
     text-align: center;
 }
+
 div#titleimage {
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: 1em;
     font-style: italic;
     text-align: center;
 }
+
 div#aboutproject {
     height: auto;
     margin-left: auto;
@@ -115,16 +133,20 @@ div#aboutproject {
     padding-top: 25px;
     line-height: 1.25em;
 }
+
 div#aboutproject ul {
     margin-left: 10px;
     list-style-position: outside;
 }
+
 span.aboutheading {
     font-weight: bold;
 }
+
 div#projectphotos td {
     width: 400px;
 }
+
 .captions {
     font-style: italic;
     font-size: 15px;
@@ -132,53 +154,66 @@ div#projectphotos td {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .captionL {
     padding-left: 0px;
     padding-right: 20px;
 }
+
 .captionR {
     padding-left: 20px;
     padding-right: 0px;
 }
+
 #projectphotos img {
     margin-top: 20px;
 }
+
 .projectphotoL {
     margin-left: 0px;
     margin-right: 20px;
 }
+
 .projectphotoR {
     margin-left: 20px;
     margin-right: 0px;
 }
+
 div#projectphotos img {
     border-color: black;
     border-width: 1px;
     border-style: solid;
 }
+
 div#projectphotos img:hover {
     border-color: #8897ED;
 }
+
 div#foot {
     font-size: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding-top: 15px;
 }
+
 div#foot table {
     margin-left: auto;
     margin-right: auto;
 }
+
 div#foot td {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 div#foot a {
     text-decoration: none;
     color: #828282;
 }
+
 div#foot a:hover {
     color: #8E0000;
 }
+
 div.projectstep {
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: small;
@@ -191,13 +226,16 @@ div.projectstep {
     width: 800px;
     max-width: 85%
 }
+
 div#miniprojectstep {
     height: 130px;
 }
+
 div.projectstep h1 {
     margin: 0px;
     padding: 0px;
 }
+
 div.projectstep a {
     color: black;
     text-decoration: none;
@@ -205,6 +243,7 @@ div.projectstep a {
     margin: 0px;
     padding: 0px;
 }
+
 div.projectstep h2 {
     font-size: 1.3em;
     color: #828282;
@@ -213,32 +252,37 @@ div.projectstep h2 {
     margin: 0px;
     padding: 0px;
 }
+
 div.projectstep p {
     max-width: 600px;
     font-size: 1em;
 }
+
 div.projectstep p a:link {
     color: blue;
 }
+
 div.projectstep p a:visited {
     color: purple;
 }
-div.projectstep a img {
-    float: left;
-}
+
 div.projectstep div.textblock {
     max-width: 70%;
     display: table-cell;
 }
+
 div.projectstep a.projecttitle:hover {
     color: #8897ED
 }
+
 div.projectstep p a {
     font-size: 1em;
 }
+
 div.projectstep p a:hover {
     color: #8E0000;
 }
+
 div#footer {
     padding-top: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
@@ -248,21 +292,26 @@ div#footer {
     margin-left: auto;
     margin-right: auto;
 }
+
 div#footer tr {
     font-size: 15px;
 }
+
 div#footer table {
     margin-left: auto;
     margin-right: auto;
 }
+
 div#footer td {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 div#footer a {
     text-decoration: none;
     color: #828282;
 }
+
 div#footer a:hover {
     color: #8E0000;
 }
