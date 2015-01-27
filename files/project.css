@@ -7,6 +7,24 @@ div#navbar {
     padding-bottom: 20px;
 }
 
+div#navbar a {
+    text-decoration: none;
+    color: #828282;
+}
+
+div#navbar a:hover {
+    color: #8E0000;
+}
+
+div#navbar n1 {
+    padding-top: 5px;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
 div.projectimage {
     width: 200px;
     max-width: 30%;
@@ -40,35 +58,6 @@ div h3 {
     margin-bottom: 5px;
 }
 
-div#navbar n1 {
-    padding-top: 5px;
-    font-size: 1.2em;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    margin-bottom: 5px;
-    padding-left: 2.5px;
-    padding-right: 2.5px;
-}
-
-div#footer n1 {
-    padding-top: 5px;
-    font-size: 1em;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    margin-bottom: 5px;
-    padding-left: 2.5px;
-    padding-right: 2.5px;
-}
-
-div#titlebar t1 {
-    padding-top: 5px;
-    font-size: 0.8em;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    margin-bottom: 5px;
-}
-
-div#navbar tr {
-    font-size: 1.2em;
-}
-
 div.construction {
     margin-top: 10px;
     text-align: center;
@@ -88,25 +77,6 @@ div iframe {
     margin-right: auto
 }
 
-div#navbar table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#navbar td {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-div#navbar a {
-    text-decoration: none;
-    color: #828282;
-}
-
-div#navbar a:hover {
-    color: #8E0000;
-}
-
 div#titlebar {
     font-size: 1.5em;
     font-weight: bold;
@@ -121,13 +91,6 @@ div#titlebar {
 div#titlediv {
     width: 800px;
     max-width: 95% margin: auto;
-    text-align: center;
-}
-
-div#titleimage {
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    font-size: 1em;
-    font-style: italic;
     text-align: center;
 }
 
@@ -152,77 +115,6 @@ span.aboutheading {
     font-weight: bold;
 }
 
-div#projectphotos td {
-    width: 400px;
-}
-
-.captions {
-    font-style: italic;
-    font-size: 15px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.captionL {
-    padding-left: 0px;
-    padding-right: 20px;
-}
-
-.captionR {
-    padding-left: 20px;
-    padding-right: 0px;
-}
-
-#projectphotos img {
-    margin-top: 20px;
-}
-
-.projectphotoL {
-    margin-left: 0px;
-    margin-right: 20px;
-}
-
-.projectphotoR {
-    margin-left: 20px;
-    margin-right: 0px;
-}
-
-div#projectphotos img {
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-}
-
-div#projectphotos img:hover {
-    border-color: #8897ED;
-}
-
-div#foot {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    padding-top: 15px;
-}
-
-div#foot table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#foot td {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-div#foot a {
-    text-decoration: none;
-    color: #828282;
-}
-
-div#foot a:hover {
-    color: #8E0000;
-}
-
 div.projectstep {
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: small;
@@ -236,19 +128,7 @@ div.projectstep {
     max-width: 85%
 }
 
-div#miniprojectstep {
-    height: 130px;
-}
-
 div.projectstep h1 {
-    margin: 0px;
-    padding: 0px;
-}
-
-div.projectstep a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
     margin: 0px;
     padding: 0px;
 }
@@ -260,6 +140,11 @@ div.projectstep h2 {
     font-weight: normal;
     margin: 0px;
     padding: 0px;
+}
+
+div.projectstep div.textblock {
+    max-width: 70%;
+    display: table-cell;
 }
 
 div.projectstep p {
@@ -275,17 +160,8 @@ div.projectstep p a:visited {
     color: purple;
 }
 
-div.projectstep div.textblock {
-    max-width: 70%;
-    display: table-cell;
-}
-
 div.projectstep a.projecttitle:hover {
     color: #8897ED
-}
-
-div.projectstep p a {
-    font-size: 1em;
 }
 
 div.projectstep p a:hover {
@@ -302,18 +178,13 @@ div#footer {
     margin-right: auto;
 }
 
-div#footer tr {
-    font-size: 15px;
-}
-
-div#footer table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#footer td {
-    padding-left: 20px;
-    padding-right: 20px;
+div#footer n1 {
+    padding-top: 5px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin-bottom: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
 
 div#footer a {
