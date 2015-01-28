@@ -149,7 +149,7 @@ div.projectimage a.imagelink {
 }
 
 img.imagelink {
-    display: flex;
+    display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
