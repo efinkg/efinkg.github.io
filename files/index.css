@@ -149,15 +149,13 @@ div.projectimage a.imagelink {
 }
 
 img.imagelink {
-    display: block;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
     margin-top: auto;
     max-width: 100%;
     max-height: 100%;
-    height: auto;
-    width: 100%;
 }
 
 div.project p1 {
@@ -195,6 +193,8 @@ div.project p {
 
 div.project div.textblock {
     max-width: 100%;
+    display: flex;
+    vertical-align: middle;
 }
 
 div.project a.projecttitle:hover {
