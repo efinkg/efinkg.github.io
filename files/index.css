@@ -193,8 +193,6 @@ div.project p {
 
 div.project div.textblock {
     max-width: 100%;
-    display: flex;
-    vertical-align: middle;
 }
 
 div.project a.projecttitle:hover {
