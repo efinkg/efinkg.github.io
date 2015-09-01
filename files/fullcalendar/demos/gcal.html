@@ -3,8 +3,17 @@
 
 <head>
     <meta charset='utf-8' />
+    <link rel="stylesheet" href="../files/index.css" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <link href='../fullcalendar.css' rel='stylesheet' />
     <link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $('#header').load('../../../files/indexheader.html');
+            $('#footer').load('../../../files/indexfooter.html');
+        });
+    </script>
     <script src='../lib/moment.min.js'></script>
     <script src='../lib/jquery.min.js'></script>
     <script src='../fullcalendar.min.js'></script>
@@ -13,35 +22,38 @@
         $(document).ready(function () {
 
             $('#calendar').fullCalendar({
+                weekends: true,
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+                defaultView: 'agendaWeek',
+                scrollTime: '09:00',
+                editable: false,
+
                 // To make your own Google API key, follow the directions here:
                 // http://fullcalendar.io/docs/google_calendar/
-                googleCalendarApiKey: 'AAIzaSyCbNAqB7f-ofUPSTLp1LW24PFX4e1_Rj4w',
+                googleCalendarApiKey: 'AIzaSyAhPCoFNorv-Ahx8yNP8tGL5Th3YE_zf0A',
+
+                //    events: 'usa__en@holiday.calendar.google.com',
 
                 // US Holidays
                 eventSources: [
                     {
-                        googleCalendarId: 'usa__en@holiday.calendar.google.com'
-                },
+                        googleCalendarId: '8lk872vr5bslnta6nq4kc7ocf4@group.calendar.google.com',
+                        color: '#ffad46',
+                                },
                     {
-                        googleCalendarId: '8lk872vr5bslnta6nq4kc7ocf4@group.calendar.google.com'
-                },
+                        googleCalendarId: 'o0q0dma321chr3h5a23gncbfc0@group.calendar.google.com',
+                        color: '#fad165',
+                                },
                     {
-                        googleCalendarId: 'o0q0dma321chr3h5a23gncbfc0@group.calendar.google.com'
-                },
-                    {
-                        googleCalendarId: 'ethan.glassman@gmail.com'
-                },
-                ],
+                        googleCalendarId: 'ethan.glassman@gmail.com',
+                        color: '#9fc6e7',
+                                },
+                    ],
 
-                eventClick: function (event) {
-                    // opens events in a popup window
-                    window.open(event.url, 'gcalevent', 'width=700,height=600');
-                    return false;
-                },
-
-                loading: function (bool) {
-                    $('#loading').toggle(bool);
-                }
 
             });
 
@@ -69,12 +81,18 @@
     </style>
 </head>
 
+
+
 <body>
+    <div id='header'>
+    </div>
 
     <div id='loading'>loading...</div>
 
     <div id='calendar'></div>
 
+    <div id='footer'>
 </body>
+
 
 </html>
