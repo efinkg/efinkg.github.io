@@ -4,7 +4,7 @@
 <head>
     <meta charset='UTF8' />
     <link rel="stylesheet" href="../files/index.css" />
-    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <meta name="viewport" content="width=(device-width)*0.75; initial-scale=0.8;">
     <link href='./files/fullcalendar/fullcalendar.css' rel='stylesheet' />
     <link href='./files/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
     <script src='./files/fullcalendar/lib/moment.min.js'></script>
@@ -20,7 +20,7 @@
     <script>
         $(document).ready(function () {
 
-            $('#fullcalendar').fullCalendar({
+            $('#calendar').fullCalendar({
                 weekends: true,
                 header: {
                     left: 'prev,next today',
@@ -28,8 +28,10 @@
                     right: 'month,agendaWeek,agendaDay'
                 },
                 defaultView: 'agendaWeek',
-                scrollTime: '09:00',
                 editable: false,
+                allDaySlot: false,
+                scrollTime: '09:00:00',
+                timezone: false,
 
                 // To make your own Google API key, follow the directions here:
                 // http://fullcalendar.io/docs/google_calendar/
@@ -58,19 +60,23 @@
 
         });
     </script>
-    <style>
-        #calendar {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-    </style>
+
 </head>
 
 
 <div id="header"></div>
 
 <body>
-    <div id='fullcalendar'></div>
+    <div>
+        <style scoped>
+            #calendar {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        </style>
+        <div id='calendar'></div>
+    </div>
+
 </body>
 <div id='footer'></div>
 
