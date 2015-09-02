@@ -10,6 +10,12 @@
     <script src='../lib/moment.min.js'></script>
     <script src='../lib/jquery.min.js'></script>
     <script src='../fullcalendar.min.js'></script>
+    <script>
+        $(function () {
+            $("#header").load("../../../files/indexheader.html");
+            $("#footer").load("../../../files/indexfooter.html");
+        });
+    </script>
     <script src='../gcal.js'></script>
     <script>
         $(document).ready(function () {
@@ -77,10 +83,95 @@
 
 
 <body>
-
+    <div id='header'>
+        <style scoped>
+            div#navbar n1 {
+                padding-top: 5px;
+                font-size: 1.2em;
+                font-family: Verdana, Geneva, Arial, sans-serif;
+                margin-bottom: 5px;
+                padding-left: 2.5px;
+                padding-right: 2.5px;
+            }
+            
+            div#navbar {
+                width: 390px;
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: Verdana, Geneva, Arial, sans-serif;
+                padding-bottom: 20px;
+            }
+            
+            div#navbar h3 {
+                padding-top: 5px;
+                font-size: 25px;
+                font-family: Verdana, Geneva, Arial, sans-serif;
+                margin-bottom: 5px;
+            }
+            
+            div#navbar tr {
+                font-size: 20px;
+            }
+            
+            div#navbar table {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            div#navbar table {
+                width: 500px;
+                max-width: 80%;
+            }
+            
+            div#navbar td {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            div#navbar a {
+                text-decoration: none;
+                color: #828282;
+            }
+            
+            div#navbar a:hover {
+                color: #8E0000;
+            }
+        </style>
+    </div>
     <div id='fullcalendar'></div>
-    <div id='testing'>Testing, testing?</div>
-
+    <div id='footer'>
+        <style scoped>
+            div#footer {
+                padding-top: 20px;
+                font-family: Verdana, Geneva, Arial, sans-serif;
+                padding-bottom: 15px;
+                width: 320px;
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            div#footer tr {
+                font-size: 15px;
+            }
+            
+            div#footer table {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            div#footer td {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            div#footer a {
+                text-decoration: none;
+                color: #828282;
+            }
+        </style>
+    </div>
 </body>
 
 
