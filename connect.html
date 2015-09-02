@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset='utf-8' />
+    <meta charset='UTF8' />
     <link rel="stylesheet" href="../files/index.css" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <link href='./files/fullcalendar/fullcalendar.css' rel='stylesheet' />
@@ -12,8 +12,8 @@
     <script src='./files/fullcalendar/fullcalendar.min.js'></script>
     <script>
         $(function () {
-            $("#header").load("./files/indexheader.html");
-            $("#footer").load("./files/indexfooter.html");
+            $("#header").load("./files/indexheader.html #navbar");
+            $("#footer").load("./files/indexfooter.html #footer");
         });
     </script>
     <script src='./files/fullcalendar/gcal.js'></script>
@@ -81,106 +81,11 @@
 </head>
 
 
+<div id="header"></div>
 
 <body>
-    <div>
-        <style scoped>
-            div#navbar n1 {
-                padding-top: 5px;
-                font-size: 1.2em;
-                font-family: Verdana, Geneva, Arial, sans-serif;
-                margin-bottom: 5px;
-                padding-left: 2.5px;
-                padding-right: 2.5px;
-            }
-            
-            div#navbar {
-                width: 390px;
-                max-width: 100%;
-                margin-left: auto;
-                margin-right: auto;
-                font-family: Verdana, Geneva, Arial, sans-serif;
-                padding-bottom: 20px;
-            }
-            
-            div#navbar h3 {
-                margin-left: 12%;
-                padding-top: 5px;
-                font-size: 25px;
-                font-family: Verdana, Geneva, Arial, sans-serif;
-                margin-bottom: 5px;
-            }
-            
-            div#navbar tr {
-                font-size: 20px;
-            }
-            
-            div#navbar table {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            div#navbar table {
-                width: 500px;
-                max-width: 80%;
-            }
-            
-            div#navbar td {
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            
-            div#navbar a {
-                text-decoration: none;
-                color: #828282;
-            }
-            
-            div#navbar a:hover {
-                color: #8E0000;
-            }
-        </style>
-        <div id="header">
-        </div>
-    </div>
     <div id='fullcalendar'></div>
-    <div>
-        <style scoped>
-            div#footer {
-                padding-top: 20px;
-                font-family: Verdana, Geneva, Arial, sans-serif;
-                padding-bottom: 15px;
-                width: 320px;
-                max-width: 100%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            div#footer tr {
-                font-size: 15px;
-            }
-            
-            div#footer table {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            div#footer td {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            
-            div#footer a {
-                text-decoration: none;
-                color: #828282;
-            }
-            
-            div#footer a:hover {
-                color: #8E0000;
-            }
-        </style>
-        <div id='footer'></div>
-    </div>
 </body>
-
+<div id='footer'></div>
 
 </html>
