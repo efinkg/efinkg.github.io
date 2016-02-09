@@ -1,0 +1,39 @@
+{
+ "type": "FeatureCollection",
+ "features": [{ "type": "Feature",
+ "geometry": {
+ "type": "Point",
+ "coordinates": [144.9,-37.8]
+ },
+ "properties": {
+ "title": "Scooter",
+ "description": "Here's a dot",
+ "marker-size": "medium",
+ "marker-symbol": "scooter",
+ "marker-color": "#a59",
+ "stroke": "#555555",
+ "stroke-opacity": 1.0,
+ "stroke-width": 2,
+ "fill": "#555555",
+ "fill-opacity": 0.5
+ }
+ },
+ { "type": "Feature",
+ "geometry": {
+ "type": "Point",
+ "coordinates": [144.4,-37.5]
+ },
+ "properties": {
+ "title": "Cafe",
+ "description": "Coffee and stuff",
+ "marker-size": "medium",
+ "marker-symbol": "cafe",
+ "marker-color": "#f99",
+ "stroke": "#555555",
+ "stroke-opacity": 1.0,
+ "stroke-width": 2,
+ "fill": "#555555",
+ "fill-opacity": 0.5
+ }
+ }]
+}
